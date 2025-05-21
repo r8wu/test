@@ -1,4 +1,9 @@
-#include <torch/script.h> 
-cpp
+#@title strain series
+S1 = ['mono','cyclic']
+S2 = ['fixed_peak_points']
+S3 = [1]
+num_samples = 500
+bb = 0.05
 
-88688
+strain_history = []
+
